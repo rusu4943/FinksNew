@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+   <title>Login</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+   <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+   <link rel="stylesheet" type="text/css" href="css/mystyle.css"/>
+  
+</head>
+<body class="register">
+<ul class="navs">
+  <li class="logo">
+        <!--NAVIGATION-->
+    <i class="iconfont icon-daocha"></i>
+  </li>
+  <li class="active fr"><a  href="registration.php">REGISTER</a></li>
+  <li class="fr"><a  href="ranking.php">RANKING</a></li>
+  <li class="fr"><a  href="results_sample.php">PHOTOS</a></li>
+  <li class="fr"><a  href="submission.php">UPLOAD</a></li>
+  <li class="fr"><a  href="search.php">SEARCH</a></li>
+</ul>
+
+  <div class="container">
+  <h2 class="center">
+    <!--allow user to login by using their google account-->
+    <a class="btn btn-info" href="registration.php">Registration</a>
+  </h2>
+  
+  <!--registration form-->
+  <form action="login.php" method="post">
+    <!--user name: text box-->
+    <div class="form-group">
+      <label for="name">USER NAME:</label>
+      <input type="text" class="form-control" id="name" placeholder="Please enter your user name" name="name">
+    </div>
+    <div class="form-group">
+      <!--password: text box-->
+      <label for="pwd">PASSWORD:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Please enter your password" name="pwd">
+    </div>
+  
+    <!--submit button -->
+    <button type="submit" class="btn btn-danger" style="margin-left: 50%;" id="register">CONFIRM</button>
+  </form>
+  
+  </div>
+  <!-- share to social media -->
+  <div class="share">
+    <h2>FOLLOW AND CONTACT US</h2>
+    <div class="icons">
+      <a href="#">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-instagram"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-twitter"></i>
+      </a>
+       <a href="#">
+        <i class="fa fa-google"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-phone"></i>
+      </a>
+      
+    </div>
+  </div>
+  <!-- footer -->
+  <footer>
+    <p>
+      WORLDFOODS.COM All Right Reserved. 
+      <em class="fr">Explore restaurants all around the world.</em>
+    </p>
+  </footer>
+  <script type="text/javascript" src="js/script.js"></script>
+
+  </body>
+  </html>
+
+        
